@@ -1,0 +1,31 @@
+
+
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 5%;
+}
+
+.img{
+    width: 40%;
+}
+
+.img img{
+    width: min-content;
+}
+
+.information{
+    padding: 3%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button.margin-right2{
+    margin-right: 2%;
+}

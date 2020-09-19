@@ -1,0 +1,22 @@
+{
+  "name": "mmmovies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "@Martingf56",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.1.1",
+    "electron-builder": "^22.7.0"
+  },
+  "dependencies": {
+    "electron-builder": "^22.7.0",
+    "electron-reload": "^1.5.0"
+  },
+  "description": ""
+}

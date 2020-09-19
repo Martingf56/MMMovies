@@ -1,0 +1,72 @@
+
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color:hsla(206, 9%, 15%, 1);
+    min-height: 550px;
+}
+
+.full-height{
+    height: 100%;
+}
+
+
+#overwrite-bts nav{
+    background-color: hsla(206, 9%, 15%, 0.91);
+}
+
+#overwrite-bts nav a{
+    color: #B4C9D9;
+}
+
+#overwrite-bts .object-search{
+    padding-top: 70px;
+    color: floralwhite;
+}
+
+#overwrite-bts .navbar button:hover{
+    background-color: #007bff;
+    color: white!important;
+}
+
+.flex{
+    padding-top: 70px;
+    display: flex;
+}
+
+.Title{
+    width: 90%;
+    color: #cfdfeb;
+    padding-left: 23px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#overwrite-bts .btn-group{
+    margin-right: 25px;
+}
+
+.object-grid{
+    padding: 2%;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-column-gap:3%;
+}
+
+#overwrite-bts .card img{
+    min-height: 238px;
+    max-height: 238px;
+}
+
+#overwrite-bts .card:hover{
+    transform: scale(1.08);
+}
